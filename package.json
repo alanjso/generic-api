@@ -1,0 +1,29 @@
+{
+  "name": "generic-api",
+  "version": "1.0.1",
+  "description": "Estrutura de API basica para uso em microservico e integracoes da G4flex",
+  "main": "src/init.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "nodemon src/init.js"
+  },
+  "keywords": [
+    "api",
+    "estrutura",
+    "base"
+  ],
+  "author": "Alan Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.6",
+    "nodemailer": "^6.4.6",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5",
+    "supertest": "^4.0.2"
+  }
+}
